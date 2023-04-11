@@ -5,9 +5,15 @@ Este projeto consiste em criar um jogo de adivinhação onde o jogador deve tent
 
 Durante a formação do curso de JavaScript e HTML da [Alura](https://cursos.alura.com.br/user/emanoelcampos), foi proposto um desafio aos participantes: desenvolver um jogo que possibilitasse a prática da lógica de programação por meio do Programa ONE da Oracle. O jogo foi criado ao longo das aulas, com atividades e exemplos de aprendizagem, e foi aperfeiçoado gradativamente à medida que novos conhecimentos foram sendo apresentados. Assim, durante todo o curso, o jogo foi sendo construído e melhorado, consolidando o aprendizado e oferecendo uma experiência prática e desafiadora para os estudantes.
 
-#### Jogue agora e descubra se você é bom em [adivinhação](https://emanoelcampos.github.io/jogo-adivinhacao/)
+#### Jogue agora e descubra se você é bom em [adivinhação](https://emanoelcampos.github.io/jogo-adivinhacao/) 
 
 ![](https://raw.githubusercontent.com/emanoelcampos/jogo-adivinhacao/master/site-images/front-page.png)
+
+### DESAFIOS
+
+1 - Você pode criar uma função `sorteia` que recebe um número `n` e sorteia um número entre 0 a `n`, retornando esse valor. Dessa forma, em vez de escrever `let numeroPensado = Math.round(Math.random() * n);`, você escreveria `let numeroPensado = sorteia(n);`. Faça essa modificação, criando a nova função e utilize-a.
+
+2 - Faça com que seu jogo mostre, quando o usuário errar a tentativa, se o número que ele chutou era maior ou menor ao número pensado pelo programa.
 
 ### Vamos criar nosso primeiro jogo! A ideia é que seja um jogo de adivinhação!
 
@@ -95,8 +101,3 @@ Ao abrir o programa no navegador, o usuário será questionado a adivinhar o nú
 
 Bom, até aqui foi fornecido o passo a passo de como proceder, agora seguem alguns desafios para você melhorar o programa. Tente chegar nas respostas e, após isso, compare com a opinião do instrutor!
 
-### DESAFIOS
-
-1 - Você pode criar uma função `sorteia` que recebe um número `n` e sorteia um número entre 0 a `n`, retornando esse valor. Dessa forma, em vez de escrever `let numeroPensado = Math.round(Math.random() * n);`, você escreveria `let numeroPensado = sorteia(n);`. Faça essa modificação, criando a nova função e utilize-a.
-
-2 - Faça com que seu jogo mostre, quando o usuário errar a tentativa, se o número que ele chutou era maior ou menor ao número pensado pelo programa.
