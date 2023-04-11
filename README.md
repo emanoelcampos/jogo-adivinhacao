@@ -22,4 +22,4 @@ Durante a formação do curso de JavaScript e HTML da [Alura](https://cursos.alu
 - Caso o jogador esgote as 10 tentativas sem acertar o número correto, o jogo informará que ele perdeu e qual era o número que ele deveria ter acertado
 - Ao final do jogo, o jogador terá a opção de jogar novamente
 
-### Jogue agora e descubra se você é bom em adivinhação:[JOGO DE ADIVINHAÇÃO](https://emanoelcampos.github.io/jogo-adivinhacao/) 
+### Jogue agora e descubra se você é bom em adivinhação: [JOGO DE ADIVINHAÇÃO](https://emanoelcampos.github.io/jogo-adivinhacao/) 
