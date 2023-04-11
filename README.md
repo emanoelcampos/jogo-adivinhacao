@@ -5,15 +5,7 @@ Este projeto consiste em criar um jogo de adivinhação onde o jogador deve tent
 
 Durante a formação do curso de JavaScript e HTML da [Alura](https://cursos.alura.com.br/user/emanoelcampos), foi proposto um desafio aos participantes: desenvolver um jogo que possibilitasse a prática da lógica de programação por meio do Programa ONE da Oracle. O jogo foi criado ao longo das aulas, com atividades e exemplos de aprendizagem, e foi aperfeiçoado gradativamente à medida que novos conhecimentos foram sendo apresentados. Assim, durante todo o curso, o jogo foi sendo construído e melhorado, consolidando o aprendizado e oferecendo uma experiência prática e desafiadora para os estudantes.
 
-
-
-<h1 align="center"> 
-
-### [JOGUE AGORA!](https://emanoelcampos.github.io/jogo-adivinhacao/) 
-
-</h1>
-
-
+<h1 align="center"><a href="https://emanoelcampos.github.io/jogo-adivinhacao/" target= "_blank">JOGUE AGORA!</a></h1>
 
 ### Desafios:
 
