@@ -7,13 +7,19 @@ function mostra(mensagem) {
 }
 
 function mostraFimJogo(){
-    document.write("<title>Você conseguiu! Foi sorte?</title>")
+    document.write("<title>Você ganhou! :) </title>")
     document.write("<body style='background-image: linear-gradient(#D9AFD9, #97D9E1);'></body>")
-    document.write("<h2 style='font-family:monospace; text-align:center; padding-top: 300px;'>" + "Uau! Você acertou em " + numeroTentativas+ " tentativa(s), pois eu pensei no " + numeroPensado+ "." + "<br><br><button onClick='window.location.reload()'>Jogar outra vez</button>" + "</h2>" );
+    document.write("<h2 style='font-family:monospace; text-align:center; padding-top: 300px;'>" + "Você conseguiu, acertou em " + numeroTentativas+ " tentativas, pois eu pensei no " + numeroPensado+ "." + "<br><br><button onClick='window.location.reload()'>Jogar outra vez</button>" + "</h2>" );
+}
+
+function mostraFimRapido(){
+    document.write("<title>Na primeira! Foi sorte?</title>")
+    document.write("<body style='background-image: linear-gradient(#D9AFD9, #97D9E1);'></body>")
+    document.write("<h2 style='font-family:monospace; text-align:center; padding-top: 300px;'>" + "Uau! Você acertou na primeira tentativa, pois eu pensei no " + numeroPensado+ "." + "<br><br><button onClick='window.location.reload()'>Jogar outra vez</button>" + "</h2>" );
 }
 
 function mostraVocePerdeu(){
-    document.write("<title>Você perdeu :( </title>")
+    document.write("<title> Você perdeu :( </title>")
     document.write("<body style='background-image: linear-gradient(#D9AFD9, #97D9E1);'></body>")
     document.write("<h2 style='font-family:monospace; text-align:center; padding-top: 300px;'>" + "Parece que você não é tão bom em adivinhação, você usou todas suas tentativas, o número era " + numeroPensado + "." + "<br><br><button onClick='window.location.reload()'>Tentar outra vez</button>" + "</h2>")
 }
@@ -44,8 +50,14 @@ function verificaChute(){
     for(let i = 0; i <= numeroMaximoTentativas; i++){
 
         if(chute == numeroPensado) {
-            mostraFimJogo();
-            break;
+            if(numeroTentativas == 1){
+                mostraFimRapido();
+                break;
+            } else {
+                mostraFimJogo();
+                break;
+            }
+            
         } else {
             numeroTentativas++;
             let numeroTentativasRestantes = numeroMaximoTentativas - numeroTentativas;
