@@ -11,7 +11,7 @@ Durante a formação do curso de JavaScript e HTML da [Alura](https://cursos.alu
 
 2 - Faça com que seu jogo mostre, quando o usuário errar a tentativa, se o número que ele chutou era maior ou menor ao número pensado pelo programa.
 
-![](https://raw.githubusercontent.com/emanoelcampos/jogo-adivinhacao/master/site-images/front-page.png)
+![Página do jogo](https://raw.githubusercontent.com/emanoelcampos/jogo-adivinhacao/master/site-images/front-page.png)
 
 ### Funcionalidades do Jogo:
 
