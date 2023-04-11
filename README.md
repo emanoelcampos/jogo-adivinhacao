@@ -2,6 +2,8 @@
 
 ## Consolidando seu conhecimento 
 
+![](https://raw.githubusercontent.com/emanoelcampos/jogo-adivinhacao/master/site-images/front-page.png)
+
 ### Vamos criar nosso primeiro jogo! A ideia é que seja um jogo de adivinhação!
 
 Primeiramente, no arquivo jogo_adivinha.html, pedimos para o computador "pensar" em um número aleatório por meio do Math.random() e multiplicamos esse valor por 100, assim, teremos um número entre 0 e 100. Por fim, arredondamos o valor para obtermos um número inteiro. Teremos o seguinte código:
