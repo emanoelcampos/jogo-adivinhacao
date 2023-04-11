@@ -15,6 +15,13 @@ Durante a formação do curso de JavaScript e HTML da [Alura](https://cursos.alu
 
 2 - Faça com que seu jogo mostre, quando o usuário errar a tentativa, se o número que ele chutou era maior ou menor ao número pensado pelo programa.
 
+### Funcionalidades do Jogo:
+
+- O jogador terá um número limitado de tentativas para adivinhar o número correto.
+- A cada tentativa, o jogo informará ao jogador se o número escolhido está acima ou abaixo do número correto.
+- O jogo termina quando o jogador acertar o número ou quando suas tentativas se esgotarem.
+- Ao final do jogo, o jogador terá a opção de jogar novamente
+
 ### Vamos criar nosso primeiro jogo! A ideia é que seja um jogo de adivinhação!
 
 Primeiramente, no arquivo jogo_adivinha.html, pedimos para o computador "pensar" em um número aleatório por meio do Math.random() e multiplicamos esse valor por 100, assim, teremos um número entre 0 e 100. Por fim, arredondamos o valor para obtermos um número inteiro. Teremos o seguinte código:
