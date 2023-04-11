@@ -1,4 +1,4 @@
-# Jogo desenvolvido para praticar lógica de programação
+# Jogo de adivinhação desenvolvido para praticar lógica de programação
 
 ## Consolidando meu conhecimento 
 
