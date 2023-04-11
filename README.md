@@ -1,6 +1,8 @@
 # Jogo de adivinhação desenvolvido para praticar lógica de programação
 
 ## Consolidando meu conhecimento 
+Este projeto consiste em criar um jogo de adivinhação onde o jogador deve tentar adivinhar um número aleatório gerado pelo computador dentro de um intervalo definido de 1 a 100. O jogo é desenvolvido em Javascript.
+
 Desafio proposto durante a formação do curso de JavaScript e HTML: desenvolva um jogo e pratique lógica de programação na [Alura](https://cursos.alura.com.br/user/emanoelcampos) por meio do Programa ONE da Oracle. O jogo começa a ser desenvolvido durante aulas como atividades de aprendizagem e aperfeiçoado durante o curso aula a aula conforme novos conhecimentos são ensinados. 
 
 #### Jogue agora e descubra se você é bom em [adivinhação](https://emanoelcampos.github.io/jogo-adivinhacao/)
