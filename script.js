@@ -41,9 +41,10 @@ function limparTentativa() {
     }
 }
 
-const numeroMaximoTentativas = 10;
+const numeroMaximoTentativas = 11;
 let numeroTentativas = 1;
 let numeroPensado = sorteia(100);
+console.log(numeroPensado)
 let campoChute = document.getElementById("numeroChute");
 
 campoChute.focus();
