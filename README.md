@@ -3,7 +3,7 @@
 ## Consolidando meu conhecimento 
 Este projeto consiste em criar um jogo de adivinhação onde o jogador deve tentar adivinhar um número aleatório gerado pelo computador dentro de um intervalo definido de 1 a 100. O jogo é desenvolvido em Javascript.
 
-Desafio proposto durante a formação do curso de JavaScript e HTML: desenvolva um jogo e pratique lógica de programação na [Alura](https://cursos.alura.com.br/user/emanoelcampos) por meio do Programa ONE da Oracle. O jogo começou a ser desenvolvido durante aulas por meio de atividades e exemplos de aprendizagem e foi sendo aperfeiçoado durante o curso aula a aula conforme novos conhecimentos são ensinados. 
+Durante a formação do curso de JavaScript e HTML da [Alura](https://cursos.alura.com.br/user/emanoelcampos), foi proposto um desafio aos participantes: desenvolver um jogo que possibilitasse a prática da lógica de programação por meio do Programa ONE da Oracle. O jogo foi criado ao longo das aulas, com atividades e exemplos de aprendizagem, e foi aperfeiçoado gradativamente à medida que novos conhecimentos foram sendo apresentados. Assim, durante todo o curso, o jogo foi sendo construído e melhorado, consolidando o aprendizado e oferecendo uma experiência prática e desafiadora para os estudantes.
 
 #### Jogue agora e descubra se você é bom em [adivinhação](https://emanoelcampos.github.io/jogo-adivinhacao/)
 
