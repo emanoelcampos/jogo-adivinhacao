@@ -26,83 +26,9 @@ Durante a formação do curso de JavaScript e HTML da [Alura](https://cursos.alu
 
 Primeiramente, no arquivo jogo_adivinha.html, pedimos para o computador "pensar" em um número aleatório por meio do Math.random() e multiplicamos esse valor por 100, assim, teremos um número entre 0 e 100. Por fim, arredondamos o valor para obtermos um número inteiro. Teremos o seguinte código:
 
-```
-<meta charset="UTF-8">
-<script>
-    function pulaLinha() {
-
-        document.write("<br>");
-    }
-
-    function mostra(mensagem) {
-
-        document.write(mensagem);
-        pulaLinha();
-    }
-
-    let numeroPensado = Math.round(Math.random() * 100);
-</script>
-``` 
-
 Em seguida, perguntamos para o usuário "chutar" um número, ele deve tentar adivinhar o que o computador pensou. E com o número fornecido verificamos se o usuário estava certo.
 
-```
-<meta charset="UTF-8">
-<script>
-
-    function pulaLinha() {
-
-        document.write("<br>");
-    }
-
-    function mostra(mensagem) {
-
-        document.write(mensagem);
-        pulaLinha();
-    }
-
-    let numeroPensado = Math.round(Math.random() * 100);
-
-    let chute = parseInt(prompt("Já pensei. Qual você acha que é?"));
-
-    if(chute == numeroPensado) {
-
-        mostra("Uau! Você acertou, pois eu pensei no " + numeroPensado);
-    }
-</script>
-```
-
 Uma mensagem deve ser mostrada caso o chute tenha sido errado. Por isso, utilizamos o else:
-
-```
-<meta charset="UTF-8">
-<script>
-
-    function pulaLinha() {
-
-        document.write("<br>");
-    }
-
-    function mostra(mensagem) {
-
-        document.write(mensagem);
-        pulaLinha();
-    }
-
-    let numeroPensado = Math.round(Math.random() * 100);
-
-    let chute = parseInt(prompt("Já pensei. Qual você acha que é?"));
-
-    if(chute == numeroPensado) {
-
-        mostra("Uau! Você acertou, pois eu pensei no " + numeroPensado);
-    } else {
-
-        mostra("Você errou! Eu tinha pensado no " + numeroPensado);
-    }
-</script>
-```
-
 
 Ao abrir o programa no navegador, o usuário será questionado a adivinhar o número sorteado pela máquina. Logo em seguida o número que for fornecido deve ser testado e deve ser mostrado se o número escolhido é o mesmo que o computador pensou ou não.
 
