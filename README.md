@@ -1,4 +1,4 @@
-# JavaScript e HTML: desenvolva um jogo e pratique lógica de programação
+# Desenvolva um jogo e pratique lógica de programação
 
 ## Consolidando seu conhecimento 
 
