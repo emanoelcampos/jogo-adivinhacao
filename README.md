@@ -2,10 +2,10 @@
 
 #### Jogue agora e descubra se você é bom em [adivinhação](https://emanoelcampos.github.io/jogo-adivinhacao/)
 
-![](https://raw.githubusercontent.com/emanoelcampos/jogo-adivinhacao/master/site-images/front-page.png)
-
 ## Consolidando meu conhecimento 
 Desafio proposto durante a formação do curso de JavaScript e HTML: desenvolva um jogo e pratique lógica de programação na [Alura](https://cursos.alura.com.br/user/emanoelcampos) por meio do Programa ONE da Oracle. O jogo começa a ser desenvolvido durante aulas como atividades de aprendizagem e aperfeiçoado durante o curso aula a aula conforme novos conhecimentos são ensinados. 
+
+![](https://raw.githubusercontent.com/emanoelcampos/jogo-adivinhacao/master/site-images/front-page.png)
 
 ### Vamos criar nosso primeiro jogo! A ideia é que seja um jogo de adivinhação!
 
