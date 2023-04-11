@@ -1,6 +1,8 @@
-# Desenvolva um jogo e pratique lógica de programação
+# Jogo desenvolvido para praticar lógica de programação
 
-## Consolidando seu conhecimento 
+## Consolidando meu conhecimento 
+
+#### Jogue agora e descubra se você é bom em [adivinhação](https://emanoelcampos.github.io/jogo-adivinhacao/)
 
 ![](https://raw.githubusercontent.com/emanoelcampos/jogo-adivinhacao/master/site-images/front-page.png)
 
