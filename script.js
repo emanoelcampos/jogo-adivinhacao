@@ -27,7 +27,7 @@ function limparTentativa() {
     }
 }
 
-const numeroMaximoTentativas = 11;
+const numeroMaximoTentativas = 10;
 let numeroTentativas = 1;
 let numeroPensado = sorteia(100);
 let campoChute = document.getElementById("numeroChute");
@@ -38,8 +38,9 @@ function verificaChute(){
 
     let chute = document.getElementById("numeroChute").value;
     chute = Number(chute);
-    
-    while(numeroTentativas < numeroMaximoTentativas) {
+
+    for(let i = 0; i <= numeroMaximoTentativas; i++){
+
         if(chute == numeroPensado) {
             mostraFimJogo();
             break;
@@ -62,7 +63,9 @@ function verificaChute(){
     }
         limparTentativa();
         campoChute.focus();
-}
+    }
+
+    
 
 campoChute.addEventListener("keypress", function(cliqueEnter) {
     if(cliqueEnter.key === "Enter") {
