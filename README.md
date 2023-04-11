@@ -15,7 +15,7 @@ Durante a formação do curso de JavaScript e HTML da [Alura](https://cursos.alu
 
 ### Funcionalidades do Jogo:
 
--Ao abrir o programa no navegador, o usuário será questionado a adivinhar o número sorteado pela máquina
+- Ao abrir o programa no navegador, o usuário será questionado a adivinhar o número sorteado pela máquina
 - O jogador terá 10 tentativas para adivinhar o número correto
 - A cada tentativa, o jogo informará ao jogador se o número escolhido está acima ou abaixo do número correto
 - O jogo termina quando o jogador acertar o número ou quando suas tentativas se esgotarem
