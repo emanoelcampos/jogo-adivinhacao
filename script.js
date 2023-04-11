@@ -7,11 +7,13 @@ function mostra(mensagem) {
 }
 
 function mostraFimJogo(){
+    document.write("<title>Você conseguiu! Foi sorte?</title>")
     document.write("<body style='background-image: linear-gradient(#D9AFD9, #97D9E1);'></body>")
     document.write("<h2 style='font-family:monospace; text-align:center; padding-top: 300px;'>" + "Uau! Você acertou em " + numeroTentativas+ " tentativa(s), pois eu pensei no " + numeroPensado+ "." + "<br><br><button onClick='window.location.reload()'>Jogar outra vez</button>" + "</h2>" );
 }
 
 function mostraVocePerdeu(){
+    document.write("<title>Você perdeu :( </title>")
     document.write("<body style='background-image: linear-gradient(#D9AFD9, #97D9E1);'></body>")
     document.write("<h2 style='font-family:monospace; text-align:center; padding-top: 300px;'>" + "Parece que você não é tão bom em adivinhação, você usou todas suas tentativas, o número era " + numeroPensado + "." + "<br><br><button onClick='window.location.reload()'>Tentar outra vez</button>" + "</h2>")
 }
