@@ -5,15 +5,13 @@ Este projeto consiste em criar um jogo de adivinhação onde o jogador deve tent
 
 Durante a formação do curso de JavaScript e HTML da [Alura](https://cursos.alura.com.br/user/emanoelcampos), foi proposto um desafio aos participantes: desenvolver um jogo que possibilitasse a prática da lógica de programação por meio do Programa ONE da Oracle. O jogo foi criado ao longo das aulas, com atividades e exemplos de aprendizagem, e foi aperfeiçoado gradativamente à medida que novos conhecimentos foram sendo apresentados. Assim, durante todo o curso, o jogo foi sendo construído e melhorado, consolidando o aprendizado e oferecendo uma experiência prática e desafiadora para os estudantes.
 
-#### Jogue agora e descubra se você é bom em [adivinhação](https://emanoelcampos.github.io/jogo-adivinhacao/) 
-
-![](https://raw.githubusercontent.com/emanoelcampos/jogo-adivinhacao/master/site-images/front-page.png)
-
 ### DESAFIOS
 
 1 - Você pode criar uma função `sorteia` que recebe um número `n` e sorteia um número entre 0 a `n`, retornando esse valor. Dessa forma, em vez de escrever `let numeroPensado = Math.round(Math.random() * n);`, você escreveria `let numeroPensado = sorteia(n);`. Faça essa modificação, criando a nova função e utilize-a.
 
 2 - Faça com que seu jogo mostre, quando o usuário errar a tentativa, se o número que ele chutou era maior ou menor ao número pensado pelo programa.
+
+![](https://raw.githubusercontent.com/emanoelcampos/jogo-adivinhacao/master/site-images/front-page.png)
 
 ### Funcionalidades do Jogo:
 
@@ -24,11 +22,9 @@ Durante a formação do curso de JavaScript e HTML da [Alura](https://cursos.alu
 
 ### Vamos criar nosso primeiro jogo! A ideia é que seja um jogo de adivinhação!
 
-Primeiramente, no arquivo jogo_adivinha.html, pedimos para o computador "pensar" em um número aleatório por meio do Math.random() e multiplicamos esse valor por 100, assim, teremos um número entre 0 e 100. Por fim, arredondamos o valor para obtermos um número inteiro. Teremos o seguinte código:
+Primeiramente, no arquivo jogo_adivinha.html, pedimos para o computador "pensar" em um número aleatório por meio do Math.random() e multiplicamos esse valor por 100, assim, teremos um número entre 0 e 100. Por fim, arredondamos o valor para obtermos um número inteiro.
 
-Em seguida, perguntamos para o usuário "chutar" um número, ele deve tentar adivinhar o que o computador pensou. E com o número fornecido verificamos se o usuário estava certo.
-
-Uma mensagem deve ser mostrada caso o chute tenha sido errado. Por isso, utilizamos o else:
+Em seguida, perguntamos para o usuário "chutar" um número, ele deve tentar adivinhar o que o computador pensou. E com o número fornecido verificamos se o usuário estava certo.Uma mensagem deve ser mostrada caso o chute tenha sido errado. 
 
 Ao abrir o programa no navegador, o usuário será questionado a adivinhar o número sorteado pela máquina. Logo em seguida o número que for fornecido deve ser testado e deve ser mostrado se o número escolhido é o mesmo que o computador pensou ou não.
 
